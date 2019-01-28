@@ -1,0 +1,6 @@
+templates目录下文件用户没有直接访问权限，需要通过服务器请求转发访问;
+而static目录用户有访问权限;
+
+
+templates目录:可以放动态网页、需要服务器转发的网页等
+static目录：可以放css、js、lib、imags、html等静态资源

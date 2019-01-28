@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--引用命名空间:xmlns:th="http://www.thymeleaf.org"-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--th:text  用来将内容输出到所在标签的body中-->
+<!--/*@thymesVar id="name" type="java.lang.String"*/-->
+<p th:text="'Hello！, ' + ${name} + '!'">3333</p>
+<br>
+<br>
+
+<!--/*@thymesVar id="userName" type="java.lang.String"*/-->
+<p th:object="${session.userName}">蔡冯丽</p>
+<!--密 码：<p th:text="${}">20</p>-->
+</body>
+</html>
