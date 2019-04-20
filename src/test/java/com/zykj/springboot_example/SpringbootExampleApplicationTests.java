@@ -17,6 +17,7 @@ public class SpringbootExampleApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println(dataSource);
+
     }
 
 }
